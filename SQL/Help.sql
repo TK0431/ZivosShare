@@ -53,3 +53,8 @@ SELECT A.[ID]
   INNER JOIN SYS_REL_MenuOP E ON A.OPCode=E.OPCode AND A.MenuCode=E.MenuCode
   WHERE 1=1 AND B.LoginName = 'ywx'
 
+    -- ´æ´¢¹ý³Ì
+select * from sys.sql_modules
+select * from [sys].[syscomments]
+
+  
